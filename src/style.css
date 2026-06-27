@@ -9,7 +9,8 @@ header {
   border: 2px solid red;
   border-radius: 10px;
   background-color: rgb(178, 174, 174);
-  margin: 30px 50px;
+  margin: 0px 50px;
+  margin-top: 30px;
   a {
     text-decoration: none;
     margin-right: 20px;
@@ -35,5 +36,28 @@ header {
   li {
     display: inline-block;
     vertical-align: middle;
+  }
+}
+
+.SC {
+  margin-left: 65px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border: 2px solid lightblue;
+  width: 538px;
+  height: 600px;
+  display: inline-block;
+  vertical-align: middle;
+  h2 {
+    margin: 20px;
+  }
+  p {
+    margin: 20px;
+  }
+  a {
+    margin: 0px 20px;
+    margin-top: 60px;
+    text-align: right;
+    display: block;
   }
 }
